@@ -13,6 +13,7 @@
 		EB1230F81B65A8CD009DDC77 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB1230F71B65A8CD009DDC77 /* Images.xcassets */; };
 		EB1230FB1B65A8CD009DDC77 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB1230F91B65A8CD009DDC77 /* LaunchScreen.xib */; };
 		EB1231071B65A8CE009DDC77 /* TableViewExemploTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1231061B65A8CE009DDC77 /* TableViewExemploTests.swift */; };
+		EB1231111B65A973009DDC77 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1231101B65A973009DDC77 /* CustomTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		EB1231001B65A8CE009DDC77 /* TableViewExemploTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewExemploTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB1231051B65A8CE009DDC77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB1231061B65A8CE009DDC77 /* TableViewExemploTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewExemploTests.swift; sourceTree = "<group>"; };
+		EB1231101B65A973009DDC77 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				EB1230F71B65A8CD009DDC77 /* Images.xcassets */,
 				EB1230F91B65A8CD009DDC77 /* LaunchScreen.xib */,
 				EB1230EE1B65A8CD009DDC77 /* Supporting Files */,
+				EB1231101B65A973009DDC77 /* CustomTableViewCell.swift */,
 			);
 			path = TableViewExemplo;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB1231111B65A973009DDC77 /* CustomTableViewCell.swift in Sources */,
 				EB1230F31B65A8CD009DDC77 /* ViewController.swift in Sources */,
 				EB1230F11B65A8CD009DDC77 /* AppDelegate.swift in Sources */,
 			);
